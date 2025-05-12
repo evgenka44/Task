@@ -1,12 +1,10 @@
 package Task1;
 
-import java.util.Scanner;
-
 public class Task1 {
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        int m = input.nextInt();
+
+        int n = Integer.parseInt(args[0]);
+        int m = Integer.parseInt(args[1]);
         String s = "";
 
         for (int i = 0; i < n; i++){

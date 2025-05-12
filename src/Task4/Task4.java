@@ -8,7 +8,7 @@ public class Task4 {
     public static void main(String[] args) throws Exception{
         int i = 0;
         int[] array = new int[4];
-        File file = new File("C:/Users/Евгений/Desktop/По java/input.txt");
+        File file = new File(args[0]);
         Scanner input  = new Scanner(file);
         while (input.hasNextInt()){
               array[i] = input.nextInt();

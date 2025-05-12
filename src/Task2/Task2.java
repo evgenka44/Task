@@ -7,8 +7,8 @@ public class Task2 {
 
     public static void main(String[] args) {
         int xc = 0, yc = 0, r = 0, x1 = 0, y1 = 0, x2 = 0, y2 = 0, x3 = 0, y3 = 0;
-        String fileName = "C:/Users/Евгений/Desktop/По java/input.txt";
-        String fileName2 = "C:/Users/Евгений/Desktop/По java/input2.txt";
+        String fileName = args[0];
+        String fileName2 = args[1];
         File file = new File(fileName);
         File file2 = new File(fileName2);
         try {
